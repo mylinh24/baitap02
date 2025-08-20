@@ -39,7 +39,7 @@ module.exports = {
             positionId : {
                 type: Sequelize.STRING
             },
-            createAt : {
+            createdAt : {
                 allowNull : false,
                 type: Sequelize.DATE,
                 defaultValue: Sequelize.NOW
